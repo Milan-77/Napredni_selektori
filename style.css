@@ -1,0 +1,61 @@
+.wrapper {
+    width: 200px;
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    background-color: #d1d1d1;
+}
+a[target] {
+    color: green;
+}
+a {
+    color: red;
+}
+p.poseban::after {
+        font-style: italic;
+        content: " NEW";
+        color: yellow;
+}
+p:nth-child(1){
+    color: red;
+}
+p:nth-child(3){
+    color: red;
+}
+p:nth-child(5){
+    color: red;
+}
+p:nth-child(2){
+    color: blue;
+}
+p:nth-child(4){
+    color: blue;
+}
+p:nth-child(6){
+    color: blue;
+}
+p:nth-child(7):hover{
+    font-style: italic;
+}
+p:nth-last-child(1){
+    color: black;
+}
+p:nth-last-child(2){
+    color: black;
+}
+p:nth-of-type(6){
+    color: blue;
+}
+p:first-of-type{
+    color: black;
+}
+p:nth-child(1){
+    color: red;
+}
+p:nth-last-child(2){
+    color: black;
+}
+p:nth-of-type(6){
+    color: blue;
+}
